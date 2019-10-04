@@ -1,6 +1,6 @@
 body
    {font-family: 'Roboto', sans-serif;}
-   .Container{
+   .Titel{
 
     width :40%;
     margin: 0 auto;
@@ -27,14 +27,17 @@ body
 
     
 body
-.para3{
-
+{font-family: 'Roboto', sans-serif;}
+.Ingrediënten{
+    
+    line-height: 50px;
     width: 40%;
     margin: 0 auto;
 } 
 
 
 body
+{font-family: 'Roboto', sans-serif;}
 .para4{
 
     width: 40%;
@@ -43,8 +46,10 @@ body
 
 
 body
-.para5{
-
+{font-family: 'Roboto', sans-serif;}
+.Bereidingswijze{
+    
+    line-height: 35px;
     width: 40%;
     margin: 0 auto;
 }
@@ -54,6 +59,7 @@ body
 body
 .plaatje{
     
+
     width: 40%;
     margin: 0 auto;
     
@@ -63,8 +69,18 @@ body
 
 
 body
+{font-family: 'Roboto', sans-serif;}
 .Tip{
 
+    border-radius: 4px;
+    background-color: #def6ed;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    
+
+    
     width: 40%;
     margin: 0 auto;
 }
