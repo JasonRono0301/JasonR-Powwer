@@ -1,0 +1,33 @@
+body{
+  background-color: white;
+  color: white;
+}
+
+.grid-container{
+  display: grid;
+  grid-auto-columns: auto auto auto;
+  grid-auto-rows: 100px 100px 100px;
+  grid-gap: 20px;
+  
+  width: 1100px;
+  
+}
+
+.kolom1{
+  grid-column: 1;
+  grid-row: 1;
+  background-color: white;
+  color: white;
+  font-size: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container2{
+  grid-column: 1;
+  grid-row: 1;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 10px;
+  
+}
