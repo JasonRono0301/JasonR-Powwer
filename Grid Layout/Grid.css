@@ -59,12 +59,26 @@ body{
   grid-column: 1;
   grid-row: 2;
   padding-right: 200px;
-  padding-top: 50px;
+  padding-top: 40px;
   text-align: right;
   color: white;
   font-size: 26px;
   line-height: 20px;
   font-family: 'Lato', sans-serif;
+}
+
+p{
+  grid-column: 1;
+  grid-row: 2;
+  color: white;
+  text-align: right;
+  padding-top: 60px;
+  padding-right: 130px;
+  padding-left: 900px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+
 }
 
 .container4{
@@ -88,12 +102,103 @@ body{
   padding-right: 10px;
 }
 
+.Kopje1{
+  grid-column: 1;
+  grid-row: 7;
+  color:black;
+  padding-top: 50px;
+  margin-left: 200px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Tekst1{
+  grid-column: 1;
+  grid-row: 7;
+  color:black;
+  padding-top: 80px;
+  margin-left: 200px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+
+
 .img2{
   padding-right: 10px;
 }
 
+.Kopje2{
+  grid-column: 1;
+  grid-row: 7;
+  color:black;
+  padding-top: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Tekst2{
+  grid-column: 1;
+  grid-row: 7;
+  color:black;
+  padding-top: 80px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.L2{
+  padding-right: 150px;
+}
+
+
 .img3{
   padding-right: 10px;
+}
+
+.Kopje3{
+  grid-column: 1;
+  grid-row: 7;
+  color:black;
+  padding-top: 50px;
+  padding-right: 260px;
+  text-align: right;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.Tekst3{
+  grid-column: 1;
+  grid-row: 7;
+  color:black;
+  padding-top: 80px;
+  padding-right: 150px;
+  margin-left: 50px;
+  text-align: right;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+
+.L3{
+   margin-right: 150px;
 }
 
 
@@ -105,6 +210,7 @@ body{
   margin-left: 130px;
   margin-top: 100px;
   padding-right: 20px;
+  padding-top: 10px;
   text-align: center;
   
   
@@ -114,11 +220,12 @@ body{
 .Foot-text{
   font-size: 20px ;
   line-height: 22px;
-  text-decoration-line: underline;;
+  text-decoration-line: underline;
+  color: white;
   grid-column: 1;
   grid-row: 8;
   text-align: center;
-  padding-top: 115px;
+  padding-top: 120px;
   font-family: 'Lato', sans-serif;
 }
 
